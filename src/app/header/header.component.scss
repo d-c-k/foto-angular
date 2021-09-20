@@ -1,7 +1,6 @@
-p{
+.header{
     position: absolute;
-    background-color: transparent;
-    color: white;
-//    mix-blend-mode: exclusion;
-    mix-blend-mode: difference;
+    margin: 0.8rem 0 0 0.8rem;
+    padding: 0.2rem;
+    background-color: black;
 }

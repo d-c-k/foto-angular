@@ -1,2 +1,8 @@
-<img src="../../assets/images/R1-07795-014A.jpg">
-<div class="info"></div>
+<div class="display">
+    <div class="container" *ngFor="let post of posts">
+        <img src={{post.images[0]}}>
+        <div class="info">
+            <p>{{post.info}}</p>
+        </div>
+    </div>
+</div>

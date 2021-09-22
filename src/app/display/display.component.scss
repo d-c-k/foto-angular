@@ -1,5 +1,16 @@
-.display{
+img{
+    position: absolute;
+    display: block;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    z-index: -1;
+}
+
+.info{
+    position: absolute;
+    margin: 3rem 0 0 0.8rem;
+    width:100px;
+    height: 100px;
+    background-color: black;
 }

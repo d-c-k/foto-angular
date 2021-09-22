@@ -1,8 +1,17 @@
-img{
-//    position: absolute;
-    display: block;
+.display{
+    position: relative;
+}
+
+.container{
     width: 100vw;
     height: 100vh;
+}
+
+img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
 }
@@ -10,5 +19,6 @@ img{
 .info{
     position: absolute;
     margin: 3rem 0 0 0.8rem;
+    padding: 0.2rem;
     background-color: black;
 }

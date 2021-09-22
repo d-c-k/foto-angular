@@ -1,7 +1,9 @@
-<div class="display">
-    <div class="container" *ngFor="let post of posts">
+<div class="display" *ngFor="let post of posts">
+    <div class="container">
         <img src={{post.images[0]}}>
         <div class="info">
+            <p>Fotograf: {{post.author}}</p>
+            <br>
             <p>{{post.info}}</p>
         </div>
     </div>

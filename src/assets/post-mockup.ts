@@ -5,18 +5,33 @@ export const POSTS: Post[] = [
         id: 0,
         date: new Date(),
         author: 'Daniel Koefoed',
-        info: 'Rulle plåtad i augusti 21, Kodak 400 i en Minolta SRT 120', 
+        info: 'Rulle plåtad i april 20, Kodak 200 i en Minolta SRT 101b', 
         images: [
-            '../../assets/images/R1-07795-014A.jpg'
+            '../../assets/images/1.jpg',
+            '../../assets/images/2.jpg',
+            '../../assets/images/3.jpg'
         ]
     },
     {
         id: 1,
         date: new Date(),
         author: 'Olof Koefoed',
-        info: 'Rulle plåtad i augusti 31, Kodak 200 i en Minolta SRT 120 b', 
+        info: 'Rulle plåtad i oktober 20, Kodak 400 i en Minolta SRT 101b', 
         images: [
-            '../../assets/images/R1-06485-026A.jpg'
+            '../../assets/images/2.jpg',
+            '../../assets/images/3.jpg',
+            '../../assets/images/1.jpg'
+        ]
+    },
+    {
+        id: 2,
+        date: new Date(),
+        author: 'Kenneth Koefoed',
+        info: 'Rulle plåtad i december 21, Kodak Portra 400 i en Mamiya M645s1000', 
+        images: [
+            '../../assets/images/3.jpg',
+            '../../assets/images/1.jpg',
+            '../../assets/images/2.jpg'
         ]
     }
 ]

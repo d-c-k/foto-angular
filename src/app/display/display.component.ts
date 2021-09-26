@@ -9,9 +9,15 @@ import { POSTS } from '../../assets/post-mockup';
   styleUrls: ['./display.component.scss']
 })
 export class DisplayComponent implements OnInit {
-    posts = POSTS;
+  currPost?: Post;  
+
+  posts = POSTS;
 
   constructor() { }
+
+  onSelect(post: Post): void {
+    this.currPost = post;
+  }
 
   ngOnInit(): void {
   }

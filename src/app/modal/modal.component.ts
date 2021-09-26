@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+
+import { Post } from '../../assets/post';
 
 @Component({
   selector: 'app-modal',
@@ -6,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modal.component.scss']
 })
 export class ModalComponent implements OnInit {
+  @Input() photos?: Post;
 
   constructor() { }
+
+  unDefine(): void {
+    this.photos = undefined;
+  }
 
   ngOnInit(): void {
   }

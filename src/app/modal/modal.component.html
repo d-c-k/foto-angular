@@ -1,1 +1,6 @@
-<p>modal works!</p>
+<div class="modal" *ngIf="photos">
+    <p class="close" (click)="unDefine">X</p>
+    <div class="container" *ngFor="let photo of photos.images">
+        <img src={{photo}}>
+    </div>
+</div>

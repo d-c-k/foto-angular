@@ -1,14 +1,23 @@
 .modal{
-    display: none;
+    display: flex;
     position: fixed;
     z-index: 2;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0,0.9);
+    overflow-x: scroll;
 }
 
 .container {
+//    margin: auto;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
     margin: auto;
-    display: block;
-    
+    padding: 2rem;
+    max-width: 100%;
+    max-height: 100%;
 }

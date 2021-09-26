@@ -1,3 +1,5 @@
+<app-modal [photos]="currPost"></app-modal>
+
 <div class="display">
     <div class="container" *ngFor="let post of posts">
         <img src={{post.images[0]}}>
@@ -6,7 +8,7 @@
             <p>{{post.date}}</p>
             <br>
             <p>{{post.info}}</p>
+            <p (click)="onSelect(post)">Galleri &rarr;</p>
         </div>
-        <!--app-modal [images]="{{post.images[]}}"></app-modal-->
     </div>
 </div>
